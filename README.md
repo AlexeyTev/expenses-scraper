@@ -52,7 +52,32 @@ A full-stack financial dashboard application built with **React** (frontend) and
 | Backend    | [expenses-server](https://github.com/AlexeyTev/expenses-server) |
 
 ---
+---
 
+## 🖼️ App Screenshots
+
+### 🔐 Login Page  
+![Login Page](public/screenshots/Login-Page.jpg)
+
+### 🔄 Loading Screen  
+![Loading Page](public/screenshots/Loading-Page.jpg)
+
+### 📊 Monthly Expenses Overview  
+![Monthly Chart](public/screenshots/Monthly-Chart.jpg)
+
+### 📊 Monthly Expenses by Category  
+![Monthly Per Category](public/screenshots/Monthly-Chart-Per-Category.jpg)
+
+### 📅 Yearly Expenses by Category  
+![Yearly Per Category](public/screenshots/Yearly-Expenses-Per-Category.jpg)
+
+### 📋 Summary Dashboard  
+![Summary View](public/screenshots/Summary.jpg)
+
+### 📥 Downloadable CSV Output  
+![CSV Export](public/screenshots/CSV.jpg)
+
+---
 ## 📦 Installation Instructions
 
 ### 1. Clone Both Repositories
