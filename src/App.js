@@ -35,7 +35,7 @@ function App() {
         <div>
             <Container maxWidth="sm">
                 <Grid container spacing={2}>
-                    <Grid size={{xs: 12}}> <Typography variant={"h1"}>Israeli Bank Scraper</Typography>
+                    <Grid size={{xs: 12}}> <Typography variant={"h1"}>On My Expense?</Typography>
                     </Grid>
                     <Grid size={{xs: 12}}><ScraperSelector value={selectedScraper} onChange={setSelectedScraper}/></Grid>
                        <Grid size={{xs: 12}}><CredentialForm scraper={selectedScraper} onChange={setCredentials}/></Grid>

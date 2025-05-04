@@ -1,6 +1,7 @@
 import React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import { Box, Typography, Alert } from '@mui/material';
+import Charts from "./Charts/Charts";
 
 const TransactionTable = ({ data }) => {
     if (!data.success) {
@@ -72,14 +73,17 @@ const TransactionTable = ({ data }) => {
 
     return (
         <Box p={2}>
+            <Charts data={data} />
             <Typography variant="h6" gutterBottom>
                 Transactions
             </Typography>
             <div style={{ height: 600, width: '100%' }}>
                 <DataGrid rows={rows} columns={columns} pageSize={15} />
             </div>
+
         </Box>
     );
+
 };
 
 export default TransactionTable;
