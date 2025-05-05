@@ -11,11 +11,11 @@ function App() {
     const [credentials, setCredentials] = useState({});
     const [loading, setLoading] = useState(false);
     const [result, setResult] = useState(null);
-
+    const SCRAPER_URL = 'https://expenses-server-gw3c.onrender.com/scrape';
     const handleSubmit = async () => {
         setLoading(true);
         try {
-            const response = await axios.post('/scrape', {
+            const response = await axios.post(SCRAPER_URL, {
                 companyId: selectedScraper,
                 credentials,
             });
